@@ -1,8 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
@@ -11,7 +9,11 @@ ReactDOM.render(
   document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+// HTML dentro do JS é conhecido como JSX (Javascript com XML)
+// Neste caso é TSX pois estamos utilizando Typescript
+
+// Cada pedaço da tela é um componente, cada componente do react é uma função.
+
+// Propriedade: informações que passamos para um componente se comportar de maneira diferente, como os atributos das tags html.
+
+// Estado: uma informação mantida por um componente de dentro do React. Sempre que alguma informação for ter seu valor alterado, ou seja, quando alguma informação NÃO permanece com o mesmo valor durante todo o uso da aplicação, isso é um estado.
