@@ -5,7 +5,7 @@
 	$ git clone git@github.com:rayanaprata/letmeask.git
 
 ## Access the project folder on your terminal/cmd
-$ cd letmeask
+	$ cd letmeask
 
 ## Install dependencies and run the application in development mode
 	$ yarn install # Install the dependencies
